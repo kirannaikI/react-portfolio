@@ -12,6 +12,12 @@ const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  const pStyle = {
+    'background-image' : 'linear-gradient(135deg, $primary-color 0%, $secondary-color 100%)',
+    '-webkit-clip-path': 'polygon(0 15vh, 100% 0, 100% 100%, 0 100%)',
+    'clip-path': 'polygon(0 15vh, 100% 0, 100% 100%, 0 100%)'
+  };
+
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -23,7 +29,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="projects1">
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
@@ -52,7 +58,7 @@ const Projects = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
+                        className="cta-btn cta-btn--resume"
                         href={url || '#!'}
                       >
                         See Live
@@ -62,7 +68,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--resume"
                           href={repo}
                         >
                           Source Code
