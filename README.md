@@ -19,7 +19,6 @@
 ⚡️ Well organized documentation
 
 To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
-To view a live example, **[click here](https://kirannaikI.com/react-portfolio)**
 
 ---
 
@@ -251,7 +250,7 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Authors
 
-- **Jacobo Martinez** - [https://github.com/kirannaikI](https://github.com/kirannaikI/react-portfolio)
+- **Kiran Naik** - [https://github.com/kirannaikI](https://github.com/kirannaikI/react-portfolio)
 
 ## Status
 
